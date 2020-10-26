@@ -1,9 +1,14 @@
 GET  http://127.0.0.1:3000/test HTTP/1.1
 content-type: application/json
 
-{
-    "name":"Hendry",
-    "salary":"61888",
-    "age":"26"
-}
+###
 
+
+GET  http://127.0.0.1:3000/post HTTP/1.1
+content-type: application/json
+
+###
+
+
+POST http://127.0.0.1:3000/post HTTP/1.1
+content-type: application/json
